@@ -1,9 +1,5 @@
 # 🔢 Contador Interativo
 
-![Screenshot do projeto](./screenshot.png)
-
-> Substitua a imagem acima por um print da sua aplicação rodando.
-
 ## 📖 Descrição
 
 Um contador simples feito em **React**. Permite aumentar, diminuir e zerar um número na tela. O valor muda de cor conforme fica positivo, negativo ou neutro. É um projeto ideal para praticar **estado** e **eventos** no React.
@@ -33,10 +29,6 @@ npm run dev
 ```
 
 Depois abra o endereço mostrado no terminal (geralmente `http://localhost:5173`).
-
-## 🌐 Como acessar o projeto publicado
-
-> Adicione aqui o link após publicar na Vercel ou Netlify.
 
 ## 📁 Estrutura básica do projeto
 
