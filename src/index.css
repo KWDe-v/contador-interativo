@@ -1,0 +1,25 @@
+:root {
+  --cor-fundo: #0f172a;
+  --cor-card: #1e293b;
+  --cor-texto: #f1f5f9;
+  --cor-primaria: #38bdf8;
+  --cor-perigo: #f87171;
+  --cor-neutra: #64748b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
