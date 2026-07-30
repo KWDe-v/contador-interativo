@@ -1,0 +1,60 @@
+.contador {
+  background-color: var(--cor-card);
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 380px;
+}
+
+.contador__titulo {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.contador__valor {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  transition: color 0.2s ease;
+}
+
+.contador__botoes {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #0f172a;
+  transition: transform 0.1s ease, opacity 0.2s ease;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.btn:active {
+  transform: scale(0.96);
+}
+
+.btn--aumentar {
+  background-color: var(--cor-primaria);
+}
+
+.btn--diminuir {
+  background-color: var(--cor-perigo);
+}
+
+.btn--zerar {
+  background-color: var(--cor-neutra);
+  color: var(--cor-texto);
+}
